@@ -4,7 +4,7 @@ import { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 
 export const Car = () => {
-  const { scene } = useGLTF('/src/assets/models/car.glb');
+  const { scene } = useGLTF('/assets/models/car.glb');
   const wheelsRef = useRef<THREE.Object3D[]>([]);
   const carRef = useRef<THREE.Group>(null);
   const speedRef = useRef(0);
