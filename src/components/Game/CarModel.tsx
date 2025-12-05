@@ -13,7 +13,7 @@ export const CarModel = () => {
   const positionX = useRef(0);
 
   // Uncomment when you have the model file
-  // const { scene } = useGLTF('/src/assets/models/car.glb');
+  // const { scene } = useGLTF('/assets/models/car.glb');
 
   useFrame((_, delta) => {
     if (!meshRef.current) return;
@@ -44,4 +44,4 @@ export const CarModel = () => {
 };
 
 // Preload the model (uncomment when you have the file)
-// useGLTF.preload('/src/assets/models/car.glb');
+// useGLTF.preload('/assets/models/car.glb');
