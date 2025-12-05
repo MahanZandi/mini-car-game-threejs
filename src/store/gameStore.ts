@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { GameState, BiomeType } from '../types/game';
+import type { GameState, BiomeType } from '../types/game';
 import { GAME_CONFIG } from '../utils/constants';
 
 interface GameStore extends GameState {

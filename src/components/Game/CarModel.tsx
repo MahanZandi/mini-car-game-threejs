@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
-import { useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
 import { useControls } from '../../hooks/useControls';
 import { GAME_CONFIG } from '../../utils/constants';

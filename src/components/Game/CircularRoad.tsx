@@ -1,5 +1,3 @@
-import * as THREE from 'three';
-
 export const CircularRoad = () => {
   const radius = 1500; // 3km diameter = 1.5km radius
   const segments = 100;

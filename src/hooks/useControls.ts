@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { PlayerControls } from '../types/game';
+import type { PlayerControls } from '../types/game';
 
 export const useControls = () => {
   const [controls, setControls] = useState<PlayerControls>({

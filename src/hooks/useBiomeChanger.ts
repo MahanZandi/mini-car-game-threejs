@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useGameStore } from '../store/gameStore';
-import { BiomeType } from '../types/game';
+import type { BiomeType } from '../types/game';
 import { GAME_CONFIG } from '../utils/constants';
 
 const BIOMES: BiomeType[] = ['forest', 'desert', 'snow', 'night'];
