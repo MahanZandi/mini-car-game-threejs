@@ -18,3 +18,8 @@ npm run build
 ## تکنولوژی
 
 React + TypeScript + Three.js + Tailwind
+
+
+این پروژه برای تست و یادگیری three js در ریکت 
+
+لینک ورسل mini-car-game-threejs-ewph.vercel.app
